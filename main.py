@@ -40,7 +40,6 @@ def main():
     rules = run_association_rules(df)
     plot_association_rules(rules)
 
-    # 7. SVM (two approaches)
     print("\nTRAINING SIMPLE SVM")
     
     print("\nTRAINING SVM PIPELINE")
